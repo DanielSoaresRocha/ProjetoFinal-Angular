@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import { DashboardModule } from './dashboard'
 import { CalculadoraModule } from './calculadora'
+import { ConversorModule } from './conversor'
 
 import { AppRoutingModule } from './app-routing.module'
 
@@ -16,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module'
     BrowserModule,
     DashboardModule,
     CalculadoraModule,
+    ConversorModule,
     AppRoutingModule
   ],
   providers: [],
